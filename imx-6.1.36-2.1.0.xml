@@ -14,7 +14,6 @@
   <remote name="imx-support" fetch="https://github.com/nxp-imx-support"/>
 
   <remote name="ocompany"    fetch="https://github.com/O-Software-Team"/>
-  <remote name="justin"      fetch="file:///home/justinlw/src"/>
 
   <project name="meta-arm" path="sources/meta-arm" remote="yocto" revision="0e043288fd0b17fbf31cf00ae33045107a991144" upstream="master"/>
   <project name="meta-security" path="sources/meta-security" remote="yocto" revision="d7db0a3bd1a8639df7570483f003ce00cbe274a2" upstream="mickledore"/>
@@ -37,7 +36,7 @@
   <!--
   <project name="meta-imx" remote="ocompany" path="sources/meta-imx" revision="refs/tags/rel_imx_6.1.36_2.1.1" upstream="mickledore-6.1.36-2.1.0" >
   -->
-  <project name="meta-imx" remote="justin" path="meta-imx" revision="fcab1a4e69754c6442cd280571770826221150da" upstream="mickledore-6.1.36-2.1.0" >
+  <project name="meta-imx" remote="ocompany" path="sources/meta-imx" revision="HEAD" upstream="mickledore-6.1.36-2.1.0-justin" >
      <linkfile src="tools/imx-setup-release.sh" dest="imx-setup-release.sh"/>
      <linkfile src="README" dest="README-IMXBSP"/>
   </project>
