@@ -36,7 +36,7 @@
   <!--
   <project name="meta-imx" remote="ocompany" path="sources/meta-imx" revision="refs/tags/rel_imx_6.1.36_2.1.1" upstream="mickledore-6.1.36-2.1.0" >
   -->
-  <project name="meta-imx" remote="ocompany" path="sources/meta-imx" revision="f00184124ad24f42157cdd91841bfcfa4cbf951c" upstream="mickledore-6.1.36-2.1.0-justin" >
+  <project name="meta-imx" remote="ocompany" path="sources/meta-imx" revision="17eb167b99215615a4b8c01add5ddd540f6791b4" upstream="mickledore-6.1.36-2.1.0-justin" >
      <linkfile src="tools/imx-setup-release.sh" dest="imx-setup-release.sh"/>
      <linkfile src="README" dest="README-IMXBSP"/>
   </project>
