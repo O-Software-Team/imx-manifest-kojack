@@ -33,7 +33,7 @@
   <project name="meta-qt6" path="sources/meta-qt6" remote="qt" revision="1406d0a85525a71fe5d7892d7f915404290a78ad" upstream="6.5.0"/>
   <project name="meta-timesys" path="sources/meta-timesys" remote="timesys" revision="a0c1f045016fd54406888f3750c1355188ffed63" upstream="master"/>
 
-  <project name="meta-imx" remote="ocompany" path="sources/meta-imx" revision="refs/tags/rel_imx_6.1.36_2.1.6" upstream="mickledore-6.1.36-2.1.0" >
+  <project name="meta-imx" remote="ocompany" path="sources/meta-imx" revision="refs/tags/rel_imx_6.1.36_2.1.7" upstream="mickledore-6.1.36-2.1.0" >
      <linkfile src="tools/imx-setup-release.sh" dest="imx-setup-release.sh"/>
      <linkfile src="README" dest="README-IMXBSP"/>
   </project>
